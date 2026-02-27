@@ -1,0 +1,2 @@
+[console_scripts]
+route-optimizer = vrp.main:main

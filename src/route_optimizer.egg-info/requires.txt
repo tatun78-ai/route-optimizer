@@ -1,0 +1,7 @@
+ortools>=9.9
+
+[dev]
+pytest>=8.2
+
+[viz]
+folium>=0.17

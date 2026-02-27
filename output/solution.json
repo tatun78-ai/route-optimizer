@@ -1,0 +1,139 @@
+{
+  "routes": [
+    {
+      "vehicle_id": "TRUCK-1",
+      "stops": [
+        {
+          "node_index": 0,
+          "stop_id": "DEPOT-ATX",
+          "lat": 30.2672,
+          "lon": -97.7431,
+          "cumulative_load": 0
+        },
+        {
+          "node_index": 7,
+          "stop_id": "C007",
+          "lat": 30.26,
+          "lon": -97.68,
+          "cumulative_load": 3
+        },
+        {
+          "node_index": 4,
+          "stop_id": "C004",
+          "lat": 30.24,
+          "lon": -97.7,
+          "cumulative_load": 5
+        },
+        {
+          "node_index": 10,
+          "stop_id": "C010",
+          "lat": 30.21,
+          "lon": -97.73,
+          "cumulative_load": 7
+        },
+        {
+          "node_index": 6,
+          "stop_id": "C006",
+          "lat": 30.22,
+          "lon": -97.76,
+          "cumulative_load": 9
+        },
+        {
+          "node_index": 0,
+          "stop_id": "DEPOT-ATX",
+          "lat": 30.2672,
+          "lon": -97.7431,
+          "cumulative_load": 9
+        }
+      ],
+      "distance_m": 22040,
+      "load": 9
+    },
+    {
+      "vehicle_id": "TRUCK-2",
+      "stops": [
+        {
+          "node_index": 0,
+          "stop_id": "DEPOT-ATX",
+          "lat": 30.2672,
+          "lon": -97.7431,
+          "cumulative_load": 0
+        },
+        {
+          "node_index": 1,
+          "stop_id": "C001",
+          "lat": 30.2799,
+          "lon": -97.736,
+          "cumulative_load": 2
+        },
+        {
+          "node_index": 8,
+          "stop_id": "C008",
+          "lat": 30.285,
+          "lon": -97.78,
+          "cumulative_load": 6
+        },
+        {
+          "node_index": 2,
+          "stop_id": "C002",
+          "lat": 30.25,
+          "lon": -97.75,
+          "cumulative_load": 9
+        },
+        {
+          "node_index": 0,
+          "stop_id": "DEPOT-ATX",
+          "lat": 30.2672,
+          "lon": -97.7431,
+          "cumulative_load": 9
+        }
+      ],
+      "distance_m": 12696,
+      "load": 9
+    },
+    {
+      "vehicle_id": "TRUCK-3",
+      "stops": [
+        {
+          "node_index": 0,
+          "stop_id": "DEPOT-ATX",
+          "lat": 30.2672,
+          "lon": -97.7431,
+          "cumulative_load": 0
+        },
+        {
+          "node_index": 3,
+          "stop_id": "C003",
+          "lat": 30.295,
+          "lon": -97.72,
+          "cumulative_load": 4
+        },
+        {
+          "node_index": 9,
+          "stop_id": "C009",
+          "lat": 30.33,
+          "lon": -97.71,
+          "cumulative_load": 5
+        },
+        {
+          "node_index": 5,
+          "stop_id": "C005",
+          "lat": 30.31,
+          "lon": -97.74,
+          "cumulative_load": 10
+        },
+        {
+          "node_index": 0,
+          "stop_id": "DEPOT-ATX",
+          "lat": 30.2672,
+          "lon": -97.7431,
+          "cumulative_load": 10
+        }
+      ],
+      "distance_m": 16218,
+      "load": 10
+    }
+  ],
+  "total_distance_m": 50954,
+  "unassigned_customers": []
+}

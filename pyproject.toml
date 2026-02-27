@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "route-optimizer"
+version = "0.1.0"
+description = "Extensible Vehicle Routing Problem solver using OR-Tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ortools>=9.9",
+]
+
+[project.optional-dependencies]
+viz = [
+  "folium>=0.17",
+]
+
+dev = [
+  "pytest>=8.2",
+]
+
+[project.scripts]
+route-optimizer = "vrp.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
