@@ -45,3 +45,32 @@ python -m vrp.main --output-dir output --time-limit 10
 - Distance provider can be replaced with external routing APIs.
 - `ProblemData` is serializable and can be streamed/updated incrementally.
 - Solver config is isolated so objectives/constraints can be expanded.
+
+
+# Run the application:
+Open the folder in VS Code: /Users/tatun/git/ai-ml-projects/route-optimizer.
+
+Open Terminal in VS Code and create/activate venv:
+
+python -m venv .venv
+source .venv/bin/activate
+
+## Install dependencies:
+pip install -e .
+pip install -e ".[viz,dev]"
+
+## Run the app:
+python -m vrp.main --output-dir output --time-limit 10
+
+## Check generated files:
+solution.json
+routes.geojson
+routes_map.html
+
+## Run tests:
+PYTHONPATH=src pytest -q
+
+## Optional (no PYTHONPATH needed):
+
+pip install -e .
+route-optimizer --output-dir output --time-limit 10
